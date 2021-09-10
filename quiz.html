@@ -4,25 +4,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Things around Triangle!!</title>
+    <link rel="stylesheet" href="./quiz.css" />
   </head>
   <body>
-    <nav id="navigation container">
-      <div class="nav-brand">Triangle everywhere!!</div>
-      <ul class="list-non-bullet nav-pills">
-        <li class="list-item-inline">
-          <a class="link" href="./IsTriangle.html">Is Triangle</a>
-        </li>
-        <li class="list-item-inline">
-          <a class="link" href="quiz.html">Quiz</a>
-        </li>
-        <li class="list-item-inline">
-          <a class="link" href="hyponetuse.html">Hypotenuse</a>
-        </li>
-        <li class="list-item-inline">
-          <a class="link" href="area.html">Area</a>
-        </li>
-      </ul>
-    </nav>
+    <div class="topnav">
+      <a class="active" href="./IsTriangle.html">IsTriangle</a>
+      <a href="./hyponetuse.html">Hypotenuse</a>
+      <a href="./quiz.html">Quiz</a>
+      <a href="./area.html">Area</a>
+    </div>
 
     <h1>Triangle Quiz</h1>
 
@@ -134,9 +124,8 @@
         <label><input type="radio" name="question10" value="45" />45°</label>
       </div>
     </form>
-
-    <button id="submit-btn">Submit Answers</button>
     <div id="output-box"></div>
+    <button id="submit-btn">Submit Answers</button>
     <script src="./quiz.js"></script>
   </body>
 </html>
